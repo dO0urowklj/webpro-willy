@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia-scale=1.0">
+    <title>Outstagram</title>
+
+    <link rel="stylesheet" href="search.css">
+    <link rel="icon" href="img/og logo.png">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="img/logo.PNG" class="logo">
+            <input type="text" class="search-box" placeholder="search">
+            <div class="nav-icon">
+                <a href=""><img src="img/home.PNG" class="icon"></a>
+                <a href=""><img src="img/messenger.PNG" class="icon"></a>
+                <a href="../search/search.html"><img src="img/explore.PNG" class="icon"></a>
+                <img src="img/like.PNG" class="icon" onclick="toggle();">
+                <div class="dropdown">
+                    <ul>
+                        <li>
+                            <img src="img/like 1.png" class="like-picture">
+                            <a href="#"><b>Zara</b> started following you.</a>
+                        </li>
+                        <li>
+                            <img src="img/like 1.png" class="like-picture">
+                            <a href="#"><b>Zara</b> like your post.</a>
+                        </li>
+                        <li>
+                            <img src="img/like 2.png" class="like-picture">
+                            <a href="#"><b>James</b> like your post.</a>
+                        </li>
+                        <li>
+                            <img src="img/like3.png" class="like-picture">
+                            <a href="#"><b>Chip</b> and <b>Dale</b> started following you.</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <script>
+                    function toggle(){
+                        const dropdown = document.querySelector('.dropdown');
+                        dropdown.classList.toggle('active');
+                    }
+                </script>
+                <a href=""><div class="icon user-picture"></div></a>
+            </div>
+        </div>
+      </nav>
+    <!--end navbar-->
+    <div class="main">
+        <div class="image">
+            <img src="img/1.png" class="pic">
+            <img src="img/2.png" class="pic">
+            <img src="img/3.png" class="pic">
+            <img src="img/4.png" class="pic">
+            <img src="img/5.png" class="pic">
+            <img src="img/6.png" class="pic">
+            <img src="img/7.png" class="pic">
+            <img src="img/8.png" class="pic">
+            <img src="img/9.png" class="pic">
+            <img src="img/10.png" class="pic">
+            <img src="img/11.png" class="pic">
+            <img src="img/12.png" class="pic">
+            <img src="img/13.png" class="pic">
+            <img src="img/14.png" class="pic">
+            <img src="img/15.png" class="pic">
+    </div>
+</body>
+</html>
